@@ -115,6 +115,7 @@ export default {
       axios
       .post("http://127.0.0.1:8000/api/simular", body,headers)
       .then(res => {
+        this.similator = res.data
         console.log(res)
       })
       .catch((err) => {
