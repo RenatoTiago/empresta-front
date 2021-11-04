@@ -28,79 +28,9 @@ export default {
   },
   data(){
     return{
-      //listInstituicoes:[],
-     // listConvenios:[]
-      listInstituicoes:[ { "chave": "PAN", "valor": "Pan" }, { "chave": "OLE", "valor": "Ole" }, { "chave": "BMG", "valor": "Bmg" } ],
-      listConvenios:[ { "chave": "INSS", "valor": "INSS" }, { "chave": "FEDERAL", "valor": "Federal" }, { "chave": "SIAPE", "valor": "Siape" } ],
-      //valor simulado 5550,00
-      simulator:{
-        "BMG": [
-          {
-            "taxa": 2.05,
-            "parcelas": 72,
-            "valor_parcela": 144.52,
-            "convenio": "INSS"
-          },
-          {
-            "taxa": 2.05,
-            "parcelas": 60,
-            "valor_parcela": 167.33,
-            "convenio": "INSS"
-          },
-          {
-            "taxa": 2.05,
-            "parcelas": 48,
-            "valor_parcela": 195.86,
-            "convenio": "INSS"
-          },
-          {
-            "taxa": 2.05,
-            "parcelas": 36,
-            "valor_parcela": 261.9,
-            "convenio": "INSS"
-          },
-          {
-            "taxa": 1.9,
-            "parcelas": 84,
-            "valor_parcela": 135.33,
-            "convenio": "INSS"
-          }
-        ],
-        "PAN": [
-          {
-            "taxa": 2.05,
-            "parcelas": 48,
-            "valor_parcela": 190.31,
-            "convenio": "INSS"
-          },
-          {
-            "taxa": 2.08,
-            "parcelas": 72,
-            "valor_parcela": 157.79,
-            "convenio": "INSS"
-          },
-          {
-            "taxa": 2.1,
-            "parcelas": 36,
-            "valor_parcela": 173.44,
-            "convenio": "FEDERAL"
-          }
-        ],
-        "OLE": [
-          {
-            "taxa": 2.05,
-            "parcelas": 60,
-            "valor_parcela": 168.44,
-            "convenio": "INSS"
-          },
-          {
-            "taxa": 2.08,
-            "parcelas": 72,
-            "valor_parcela": 157.79,
-            "convenio": "INSS"
-          }
-        ]
-      }
+      listInstituicoes:[],
+     listConvenios:[],
+      simulator:[]
     }
   },
   methods:{
